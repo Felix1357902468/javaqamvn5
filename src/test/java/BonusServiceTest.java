@@ -68,4 +68,3 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 }
-

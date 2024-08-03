@@ -1,7 +1,8 @@
-package ru.netology.javaqa;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BonusService service = new BonusService();
+        int bonus = service.calcBonus(5000, true);
+        System.out.println(bonus);
     }
 }
